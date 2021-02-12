@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,20 +9,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-    <h1>WoTB training - Super Unicum Guide</h1>
-    <a href="../index.html" id="intro"><pre>< Introduction</pre></a>
+        <h1>WoTB training - Super Unicum Guide</h1>
+        <a href="../index.html" id="intro">
+            <pre>< Introduction</pre></a>
     </header> <br>
-    <nav> 
+    <nav>
         <ul>
-            
+
             <li id="basics"><a href="basics.html">Basics</a></li>
             <li><a href="techniques.html">Techniques</a></li>
             <li><a href="knowyourtanks.html">Know your tanks</a></li>
             <li><a href="startinthegarage.html">Start in the garage</a></li>
             <li><a href="maps&positions.html">Maps & key positions</a></li>
-           
+
             <li><a href="aimingforweakspots.html">Aiming for weakspots</a></li>
             <li><a href="advancedtechniques.html">Advanced Techniques</a></li>
             <li><a href="Battleawareness.html">Battle Awareness</a></li>
@@ -30,97 +33,177 @@
     </nav>
     <div id="box">
         <header>
-            <p>Everything in this chapter should be fully mastered. 
+            <p>Everything in this chapter should be fully mastered.
                 It builds a strong foundation to the understanding of everything you'll learn.</p>
-                <p>Content:</p>
-                <ol>
-                    <li><a href="#1">Armor (and) Penetration</a></li>
-                    <li><a href="#2"> Shell Types</a></li>
-                    <li><a href="#3">Settings and Controls/Keybinds</a></li>
-                    <li><a href="#4">Auto(re)loaders</a></li>
-                    <li><a href="#5">Spotting range</a></li>
-                    <li><a href="#6">The Holy Angles</a></li>
-                </ol>
-            </header>
-                <body>
-                    <h2 id="1">1. Armor (and) Penetration</h2>
-                <p>You may have already noticed that there are armor and penetration values for each tank in the game.
+            <p>Content:</p>
+            <ol>
+                <li><a href="#1">Armor (and) Penetration</a></li>
+                <li><a href="#2"> Shell Types</a></li>
+                <li><a href="#3">Settings and Controls/Keybinds</a></li>
+                <li><a href="#4">Auto(re)loaders</a></li>
+                <li><a href="#5">Spotting & Camo</a></li>
+                <li><a href="#6">The Holy Angles</a></li>
+            </ol>
+        </header>
+
+        <body><br>
+            <h2 id="1">1. Armor (and) Penetration</h2>
+            <p>You may have already noticed that there are armor and penetration values for each tank in the game.
                 Obviously when your penetration value is higher than your enemy's armor value, it will penetrate.
                 However, both values are nearly never the same nor accurate depending on the situation.
-                Penetration will not increase (except equipment -> future chapter), it can decrease if you shoot a target from long distance. That's why you may not always pen your target while sniping. 
-                How much it decreases depends on your shell type. <br>For armor, it can both increase and decrease drastically depending on how it's angled. Have a look at the picture for visualisation.</p>
-                <img src="../images/Effective_armour_thickness.png">
-                
-                <p>There is also spaced armor, which is an extra plate on top of the hitbox. It decreases pen of the shell that goes through it. HE ammo doesn't go through. 
-                <br>If you see people talking about a highroll or a lowroll, a lowroll is when you inflict less damage than your alpha damage, opposite for highroll. F.e. the IS-3 has 400 alpha, if he inflicts 350 damage then he does a lowroll.<br>
-                A maxroll is when you deal the highest damage possible for your shell. You can know if you did a maxroll by a special sound effect and a "!" in front of the number.
-            </p>
+                Penetration will not increase (except equipment -> future chapter), it can decrease if you shoot a
+                target from long distance. That's why you may not always pen your target while sniping.
+                How much it decreases depends on your shell type. <br>For armor, it can both increase and decrease
+                drastically depending on how it's angled. Have a look at the picture for visualisation.</p>
+            <img src="../images/Effective_armour_thickness.png">
+
+            <p>There is also spaced armor, which is an extra plate on top of the hitbox. It decreases pen of the shell
+                that goes through it. HE ammo doesn't go through.
+                <br>If you see people talking about a highroll or a lowroll, a lowroll is when you inflict less damage
+                than your alpha damage, opposite for highroll. F.e. the IS-3 has 400 alpha, if he inflicts 350 damage
+                then he does a lowroll.<br>
+                A maxroll is when you deal the highest damage possible for your shell. You can know if you did a maxroll
+                by a special sound effect and a "!" in front of the number.
+            </p> <br>
             <h2 id="2">2. Shell Types</h2>
-                <p>
-                    In WoTB, you have about 6 shell types.</p>
-                   <ul>
-                        <li>
-                            The 4 most common types:
-                                <ul>
-                                    <li>AP<br> Most tanks have this as their default shell.</li><br>
-                                    <li>APCR<br> Sometimes default shell, usually prammo (premium ammo type). It has more pen and better velocity than AP.
-                                    </li><br>
-                                    <li>HE<br> High Explosive: Present on most tanks, very low pen but way higher damage. Explodes on the first thing it touches, so it doesn't go through obstacles or spaced armor.
-                                    If it doesn't penetrate, it will cause splash damage based on the gun caliber and how many modules it can damage. The higher the gun caliber of the shooting party, the more
-                                    splash damage it will inflict. If you splash f.e. between the turret and the hull, it will do slightly more damage than if you just hit the turret. HE can also do 0 splash damage if it hits
-                                    external modules, like the gun barrel. It can still destroy the gun temporarly, but won't affect the HP. Tracks also count as external.
-                                   </li><br>
-                                    <li>HEAT<br> Prammo (except for T49 and Vindicator), explosive like HE except it has way more pen but lower damage. It has the worst velocity of all shell types (not confirmed).
-                                     </li>
-                                    </ul>
+            <p>
+                In WoTB, you have about 6 shell types.</p>
+            <ul>
+                <li>
+                    The 4 most common types:
+                    <ul>
+                        <li>AP<br> Most tanks have this as their default shell.</li><br>
+                        <li>APCR<br> Sometimes default shell, usually prammo (premium ammo type). It has more pen and
+                            better velocity than AP.
                         </li><br>
-                        <li>
-                            HESH<br> Rarely used, simular mechanics like HE. HESH has the highest alpha damage of all types and has more penetration than HE. However not as much as AP or APCR.
-                            Most commonly used in British tanks, exceptions are the Ru 251 and the leKpz M41 90MM (german). The icon of HESH is slightly darker orange than HE. Most popular tank that uses HESH in the FV215b 183 with a whopping 1200 alpha damage.
+                        <li>HE<br> High Explosive: Present on most tanks, very low pen but way higher damage. Explodes
+                            on the first thing it touches, so it doesn't go through obstacles or spaced armor.
+                            If it doesn't penetrate, it will cause splash damage based on the gun caliber and how many
+                            modules it can damage. The higher the gun caliber of the shooting party, the more
+                            splash damage it will inflict. If you splash f.e. between the turret and the hull, it will
+                            do slightly more damage than if you just hit the turret. HE can also do 0 splash damage if
+                            it hits
+                            external modules, like the gun barrel. It can still destroy the gun temporarly, but won't
+                            affect the HP. Tracks also count as external.
                         </li><br>
-                       <li>Premium AP<br>This is a confusing one since most people won't count it as an actual seperate type. Even I don't know the full details, but from experience I assume the values depend on the nation.
-                        Tanks that use this ammotype are some Japanese tanks and the SU-100Y. On the SU, you have AP and premium AP. In this case, the premium AP has *lower* pen but more damage than the regular AP.
-                        However on some Japanese tanks, it's the opposite. The premium AP has more pen but lower damage like it's usually the case with prammo.
-                  </li>
+                        <li>HEAT<br> Prammo (except for T49 and Vindicator), explosive like HE except it has way more
+                            pen but lower damage. It has the worst velocity of all shell types (not confirmed).
+                        </li>
                     </ul>
-                    <p>As for how to use them, it's quite simple. In a normal case where you have AP/APCR, APCR/HEAT and HE available, you check if you can pen anywhere with HE first because it has the highest potential damage.
-                        However if you're on mobile, the time between checking if you can pen, realising you can't and switching back, will waste time. If you have time, check ArmorInspector in the App/Play Store (for Blitz, not WoT PC) to see where you can pen on certain tanks.<br>
-                        If you're on playing on PC, you can switch very fast between shells using keybinds (next step).<br>
-                        <br>Anyways, you check for HE first, then you try AP. If you can't pen, don't be afraid to switch to prammo. Yes it costs slightly more credits and you may be short on that, but once you are a way better player and find your favourite (preferably OP) premium tank, you'll earn those credits back in no time.
-                        <br>Personally I was literally always short on credits, having little to no credits left after purchasing a new tank. Then I improved a lot as a player and found the Progetto 46 as my soulmate.<br>
-                        After falling in love with it, I played about 200-500 battles with premium account and credit boosters on. Since then I've never been short on credits again. I racked up over 20 million credits and never fell below 10 million again since then. <br>
-                        After participating in events and opening the free crates everyday, you basically get infinite free premium account especially with the (even free) battlepasses. I've been on "30 days of premium account left" since summer 2020. It just doesn't stop. <br>
-                       <br> Now back on subject, if you always have that premium account and switch regulary between grinding xp and playing premium tanks, you don't have to worry at all about your credits.
-                        <br>So go ahead and shoot prammo if you need to, don't be afraid to fire it all when needed to pull off that win and get some extra damage, because that's what it's all about. In case you don't know how exactly to use HE, I will further explain later in chapter "Aiming for weakspots".
-                    </p>
-                    <h2 id="3">3. Settings and Controls/Keybinds</h2>
-                    <p>If you want to play well, you have be comfortable with your playing envirement. Configuring your settings is defenetly a must.<br>
-                    To begin, you should have fluent gameplay. FPS is more imporant than graphics, so lower your settings untill you have a consistant 60 fps, 120 if possible. 30 can do the trick if you have an older device but I can't promise you the same results.
-                <br> Grass in sniper mode should always be disabled.</p>
-                <h3>&nbsp;Mobile</h3>
-                <p>Adjusting Touch Controls are very important to make your finger placement more comfortable. You can change the size of the buttons and their positioning to your liking. Although you'll find this first in the settings, you should keep this for last.
-                    <br> Auto-aim should be "with button" for when you're shooting over a longer distance as auto-aim doesn't work that well in that case. The lookout area and ammo bar have to be enabled.<br>
-                    When it comes to markers, you should have at least the HP and tank model enabled for both ally and enemy. For ally you can enable reload bar and spotted allies aswell. <br>
-                    For the HUD tab, you have to enable minimap, range finder, attention to sector and reload the timer. All the other settings are up to your preferences. <br>
-                    Hint: If you enable "same control mode only" you won't face PC players, since they tend to have advantages over mobile players in terms of aiming and FOV.
-                </p>
-                 <h3>&nbsp;PC</h3>
-                <p></p>
-                    <h2 id="4">4. Auto(re)loaders</h2>
-                    <p></p>
-                    <h2 id="5">5. Spotting range</h2>
-                    <p></p>
-                    <h2 id="6">6. The Holy Angles</h2>
-                    <p></p>
-                </body>
-                <footer>
-                    <p><b>**UNDER CONSTRUCTION**</b></p>
-                </footer>
-            </div>
-            <footer>
-                <p>Made by Blitzhax<br>
-                If any issues occur, contact via <a href="https://discord.gg/h86ekqjwyB">Discord</a><br></p>
-            </footer>
+                </li><br>
+                <li>
+                    HESH<br> Rarely used, simular mechanics like HE. HESH has the highest alpha damage of all types and
+                    has more penetration than HE. However not as much as AP or APCR.
+                    Most commonly used in British tanks, exceptions are the Ru 251 and the leKpz M41 90MM (german). The
+                    icon of HESH is slightly darker orange than HE. Most popular tank that uses HESH in the FV215b 183
+                    with a whopping 1200 alpha damage.
+                </li><br>
+                <li>Premium AP<br>This is a confusing one since most people won't count it as an actual seperate type.
+                    Even I don't know the full details, but from experience I assume the values depend on the nation.
+                    Tanks that use this ammotype are some Japanese tanks and the SU-100Y. On the SU, you have AP and
+                    premium AP. In this case, the premium AP has *lower* pen but more damage than the regular AP.
+                    However on some Japanese tanks, it's the opposite. The premium AP has more pen but lower damage like
+                    it's usually the case with prammo.
+                </li>
+            </ul>
+            <p>As for how to use them, it's quite simple. In a normal case where you have AP/APCR, APCR/HEAT and HE
+                available, you check if you can pen anywhere with HE first because it has the highest potential damage.
+                However if you're on mobile, the time between checking if you can pen, realising you can't and switching
+                back, will waste time. If you have time, check ArmorInspector in the App/Play Store (for Blitz, not WoT
+                PC) to see where you can pen on certain tanks.<br>
+                If you're on playing on PC, you can switch very fast between shells using keybinds (next step).<br>
+                <br>Anyways, you check for HE first, then you try AP. If you can't pen, don't be afraid to switch to
+                prammo. Yes it costs slightly more credits and you may be short on that, but once you are a way better
+                player and find your favourite (preferably OP) premium tank, you'll earn those credits back in no time.
+                <br>Personally I was literally always short on credits, having little to no credits left after
+                purchasing a new tank. Then I improved a lot as a player and found the Progetto 46 as my soulmate.<br>
+                After falling in love with it, I played about 200-500 battles with premium account and credit boosters
+                on. Since then I've never been short on credits again. I racked up over 20 million credits and never
+                fell below 10 million again since then. <br>
+                After participating in events and opening the free crates everyday, you basically get infinite free
+                premium account especially with the (even free) battlepasses. I've been on "30 days of premium account
+                left" since summer 2020. It just doesn't stop. <br>
+                <br> Now back on subject, if you always have that premium account and switch regulary between grinding
+                xp and playing premium tanks, you don't have to worry at all about your credits.
+                <br>So go ahead and shoot prammo if you need to, don't be afraid to fire it all when needed to pull off
+                that win and get some extra damage, because that's what it's all about. In case you don't know how
+                exactly to use HE, I will further explain later in chapter "Aiming for weakspots".
+            </p><br>
+            <h2 id="3">3. Settings and Controls/Keybinds</h2>
+            <p>If you want to play well, you have be comfortable with your playing envirement. Configuring your settings
+                is defenetly a must.<br>
+                To begin, you should have fluent gameplay. FPS is more imporant than graphics, so lower your settings
+                untill you have a consistant 60 fps, 120 if possible. 30 can do the trick if you have an older device
+                but I can't promise you the same results.
+                Grass in sniper mode should always be disabled. When it comes to markers, you should have at least the
+                HP and tank model enabled for both ally and enemy. For ally you can enable reload bar and spotted allies
+                aswell. <br>
+                For the HUD tab, you have to enable minimap, range finder, attention to sector and reload the timer.</p>
+            <h3>&nbsp;Mobile</h3>
+            <p>Adjusting Touch Controls are very important to make your finger placement more comfortable. You can
+                change the size of the buttons and their positioning to your liking. Although you'll find this first in
+                the settings, you should keep this for last.
+                <br> Auto-aim should be "with button" for when you're shooting over a longer distance as auto-aim
+                doesn't work that well in that case. The lookout area and ammo bar have to be enabled.<br>
+                Hint: If you enable "same control mode only" you won't face PC players, since they tend to have
+                advantages over mobile players in terms of aiming and FOV. All the other settings are up to your
+                preferences.
+            </p>
+            <h3>&nbsp;PC</h3>
+            <p>Choose your keybinds to what is comfortable for your hand. Every important keybind should be in reach of
+                your default position when you're driving. Quick messages like "Affirmative!" do not belong to the
+                important ones.<br>
+                You have to be able to press every consumable and shell type without having to move your hand and
+                without looking at the keyboard. You can't lose focus from your monitor.
+                Although there are a couple things you can't change. One of the most important ones is auto-aim. Since
+                there is no unique keybind for "lookout area" as it's called on mobile, you cannot change auto-aim to
+                anything other than right click. Else you will lose the ability to use the lookout area.<br>
+                From other games I assume you're used to having Aim as right click, well for WoTB you'll have to let
+                loose of that habit... Going in and out sniper mode should go with the scroll wheel.
+                As last for controls, you should disable automatic zoom. Being able to zoom manually by scrolling
+                multiple times is a big advantage in almost every situation.<br>
+                All the other settings are up to your preferences.</p><br>
+            <h2 id="4">4. Auto(re)loaders</h2>
+            <p>These are fairly simple to understand, but worth mentioning for new players non the less.<br>
+                Normal guns shoot 1 shell and then reload. Autoloaders can shoot multiple shells (with very small
+                loading times between), then have a larger reload time.
+                In case you want to reload and still have a shell left in the barrel, you can reload it without shooting
+                at nothing and wasting a shell. On mobile you can double tap on your current selected shell type.
+                On pc you have a specific keybind for it.<br><br>
+                For auto<b>re</b>loaders, it's simular but better. You have multiple shells ready aswell except they
+                reload 1 by 1 instead of all at the same time. This is obviously a better system and superior to regular
+                autoloaders. Autoloaders generally have a higher alpha per shot, but that's not nessecarily better.
+            </p>
+            <h2 id="5">5. Spotting & Camo</h2>
+            <p>Spotting range is from how far away your tank can spot an enemy vehicle. Light tanks are the best
+                spotters, with mediums in second (although can depend on the tank).
+                In order to spot someone, your spotting points of the hitbox of your tank have to make contact with
+                those of the enemy. Those points are located on the most external positions of your hitbox
+                obviously. Spotting range can be increased with equipment.<br>
+                Another way to spot someone can be without seeing eachother. When you are 50 or less meters away from
+                eachother, you will both get spotted no matter what is between you. <br>
+                However if an enemy tank is within your spotting range it doesn't mean that it will get spotted. That's
+                where camo(uflage) values come into play. There are multiple factors that decide your camo value. The
+                consistant ones are from applying a camouflage (surprise) and the base value. However the inconsistant
+                variables are usually more important.<br> One of those is the state of your tank. While standing still,
+                your value is the highest (turret movement doesn't count). Moving decreases your camo and shooting even
+                more. Doing the last 2 at the same results in the worst camo value. It can also be increased by
+                equipment, but that only comes into play when you're standing still for at least 3 seconds which is not
+                worth it unless you're in a TD. The last factor is map cover, like a bush or a knocked over tree. It's
+                not much but could make the difference.<br> BUT that does not mean you have to camp in a bush! Unless
+                you're a TD, you WILL in most cases piss off your team and ruin the battle.
+            </p>
+            <h2 id="6">6. The Holy Angles</h2>
+            <p></p>
+        </body>
+        <footer>
+            <p><b>**UNDER CONSTRUCTION**</b></p>
+        </footer>
+    </div>
+    <footer>
+        <p>Made by Blitzhax<br>
+            If any issues occur, contact via <a href="https://discord.gg/h86ekqjwyB">Discord</a><br></p>
+    </footer>
 </body>
 
 </html>
