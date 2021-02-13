@@ -3,39 +3,48 @@ html {
     color: white;
     overflow: auto;
     font-family: 'Roboto', sans-serif;
-    
+
 }
 
 * {
     box-sizing: border-box;
 }
-footer, h1 {
+
+footer p,
+h1 {
     text-align: center;
+}
+
+#top {
+    text-align: left;
 }
 
 
 nav {
     margin-bottom: 0px;
-    
-   
+
+
 }
+
 nav ul {
     list-style: none;
     display: flex;
-   margin: 0;
-   padding: 0;
-   width: 100%;
-  
-   
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+
 }
+
 nav ul li {
     flex: 1 1 0;
     margin: 0px;
     border: 1px solid white;
     padding: 5px 10px;
     text-align: center;
-    
+
 }
+
 nav ul li:hover {
     background-color: gray;
 }
@@ -45,22 +54,28 @@ nav ul li:hover {
     margin-top: 0px;
     border: 1px solid white;
     border-top: hidden;
-    display:inline-block;
+    display: inline-block;
     padding-left: 15px;
-   width: 100%;
-   overflow: auto;
-   
+    width: 100%;
+    overflow: auto;
+
 }
+
 div ol li {
     margin-bottom: 7px;
 }
+
 a {
     color: white;
     text-decoration: none;
 }
-#intro:hover, ol, footer a {
+
+#intro:hover,
+ol,
+footer a {
     text-decoration: underline;
 }
+
 li[id] {
     background-color: dimgray;
     border-bottom: hidden;
