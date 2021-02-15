@@ -13,6 +13,11 @@ html {
 footer p,
 h1 {
     text-align: center;
+    background-color: #1b98e5;
+    border-radius: 30px;
+   
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #top {
@@ -20,40 +25,31 @@ h1 {
 }
 
 
-nav {
-    margin-bottom: 0px;
-
-
-}
-
 nav ul {
     list-style: none;
     display: flex;
-    margin: 0;
+    flex-wrap: wrap;
     padding: 0;
-    width: 100%;
-
-
 }
 
 nav ul li {
     flex: 1 1 0;
-    margin: 0px;
-    border: 1px solid white;
+    margin: 5px;
+    border: 1px solid #1b98e5;
+    border-radius: 10px;
     padding: 5px 10px;
     text-align: center;
+    align-self: center;
 
 }
 
 nav ul li:hover {
-    background-color: gray;
+    background-color: #1b98e5;
 }
 
 #box {
-    background-color: dimgray;
-    margin-top: 0px;
-    border: 1px solid white;
-    border-top: hidden;
+    border: 2px solid #1b98e5;
+    border-radius: 10px;
     display: inline-block;
     padding-left: 15px;
     width: 100%;
@@ -77,6 +73,6 @@ footer a {
 }
 
 li[id] {
-    background-color: dimgray;
+    background-color: #1b98e5;
     border-bottom: hidden;
 }
